@@ -24,8 +24,9 @@ function start(){
     var examDate = new Date(2018, 09, 21, 12, 30, 00, 00 );
     document.getElementById("anotherDatePara").innerHTML = 
     "<h2>Specifying arguments for new Date</h2>" + 
-    "<p>Date: "+ anotherDate + "</p>";    
+    "<p>Date: "+ examDate + "</p>";    
 
+    var anotherDate = new Date();
     anotherDate.setDate( 10 );
     anotherDate.setMonth(11);
     anotherDate.setFullYear(2016);
@@ -33,7 +34,7 @@ function start(){
     anotherDate.setMinutes( 59 );
     anotherDate.setSeconds( 59 );
     document.getElementById( "setMethodsPara").innerHTML = 
-    "<h2> Set methods for local rime zone</h2>" + 
+    "<h2> Set methods for local time zone</h2>" + 
     "<p>Modified date: " + anotherDate + "</p>";
 }
 
