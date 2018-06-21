@@ -27,3 +27,5 @@ function start(){
     "<p>Date: " + anotherDate + "</p>";    
 
 }
+
+window.addEventListener("load",start,false);
